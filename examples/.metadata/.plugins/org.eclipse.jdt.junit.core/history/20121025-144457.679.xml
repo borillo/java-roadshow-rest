@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UsersResourceTest" project="jersey-testing" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.decharlas.services.UsersResourceTest" time="4.552">
-    <testcase name="userListShouldBeThree" classname="com.decharlas.services.UsersResourceTest" time="2.815"/>
-    <testcase name="deleteUser" classname="com.decharlas.services.UsersResourceTest" time="1.399"/>
-    <testcase name="addUser" classname="com.decharlas.services.UsersResourceTest" time="0.338"/>
-  </testsuite>
-</testrun>
