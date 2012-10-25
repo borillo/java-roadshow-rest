@@ -1,0 +1,5 @@
+INDEX VERSION 1.122+/opt/devel/workspaces/java-roadshow-rest/examples/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+236866957.index
+2757453030.index
+2503713223.index
+419628526.index

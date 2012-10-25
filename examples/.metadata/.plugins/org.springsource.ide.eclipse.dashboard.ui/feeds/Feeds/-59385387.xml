@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>This Week in Spring - 23 October, 2012</title>
+ <link>http://www.springsource.org/node/3714</link>
+ <description> &lt;h1&gt; This Week in Spring &lt;/h1&gt; 
+
+&lt;p&gt; Welcome to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! 
+ As usual, we&#039;ve got a lot to cover so let&#039;s get to it!  A lot of this news come from SpringSource itself, from various projects timed to coincide with &lt;A href=&quot;http://www.springone2gx.com&quot;&gt;SpringOne2GX &lt;/a&gt; last week. It&#039;s like receiving an early birthday gift!
+  And speaking of gifts, if you missed SpringOne2GX, don&#039;t worry! We recorded the SpringOne sessions and they will be posted soon.  Also, you can check out the show wrap ups for &lt;a href=&quot;http://www.springsource.org/node/3704&quot;&gt;Day 1&lt;/a&gt;, &lt;a href=&quot;http://www.springsource.org/node/3709&quot;&gt;Day 2&lt;/a&gt;, and &lt;a href=&quot;http://www.springsource.org/node/3711&quot;&gt;Day 3&lt;/a&gt; on SpringSource.org to get a flavor for the conference.&lt;/p&gt;
+
+ &lt;OL&gt;  
+	 &lt;LI&gt; Costin Leau announced the &lt;a href=&quot;http://www.springsource.org/node/3707&quot;&gt;release of Spring for Apache Hadoop 1.0.RC1&lt;/a&gt; (the first-&lt;EM&gt;ever&lt;/EM&gt; RC of Spring for Apache Hadoop!) featuring a template, exception translation and declarative runner for Pig and Hive scripts,  enhanced map/reduce &lt;CODE&gt;.jar&lt;/CODE&gt; and tool execution, and refined JVM scripting, M/R, and Cascading runners. 
+		Don&#039;t miss the upcoming &lt;a href=&quot;http://www.springsource.org/node/3669&quot;&gt;webinar&lt;/a&gt; on Nov 8th! &lt;/LI&gt;
+		
+	&lt;LI&gt;  Peter Bell did a    &lt;A href = &quot;http://www.infoq.com/presentations/Spring-Data-NoSQL&quot;&gt;great presentation on Spring Data and the NoSQL &lt;/a&gt;  space for QCon. Be sure to check it out!  &lt;/LI&gt; 
+
+&lt;LI&gt; Yusuf has done a nice job  &lt;A href= &quot;http://java.dzone.com/articles/xa-transactions-2-phase-commit&quot;&gt;introducing Spring&#039;s XA support in terms of the open source  Bitronix&lt;/a&gt; standalone JTA-XA transaction manager. For an alternative guide, might I humbly &lt;a href=&quot;http://blog.springsource.org/2011/08/15/configuring-spring-and-jta-without-full-java-ee/&quot;&gt;suggest this blog post&lt;/a&gt;?
+   &lt;/LI&gt;
+&lt;LI&gt;  Oleg Zhurakousky announced the release &lt;a href= &quot;http://www.springsource.org/node/3710&quot;&gt;of Spring Integration 2.1.4 and 2.2.0.RC2 &lt;/a&gt;. The new release features pseudo transactions, JPA support, built-in &lt;EM&gt;retry&lt;/EM&gt; support, and a lot more, so be sure to check it out! &lt;/LI&gt;
+&lt;LI&gt; Costin Leau announced the release &lt;a href =&quot;http://www.springsource.org/node/3706&quot;&gt;of Spring Data Redis 1.0.2&lt;/A&gt;, which features cache expiration and ZSet methods, among other things. &lt;/LI&gt;
+&lt;LI&gt;  Thomas Risberg announced the &lt;A href=&quot;http://www.springsource.org/node/3708 &quot;&gt; availability of the Spring Data JDBC extensions with Oracle database support, version 1.0.0.RC4&lt;/a&gt;.&lt;/LI&gt;
+&lt;LI&gt;  Satish Ab has a nice post on building &lt;a href =&quot;http://satishab.blogspot.com/2012/10/part-3-web-layer-with-spring-mvc-for.html&quot;&gt;the web layer with Spring MVC for his sample invoice application&lt;/a&gt;.&lt;/LI&gt;
+&lt;LI&gt; The Mkyong blog has a nice post on how to autowire dependiecnes &lt;a HREF=&quot;http://www.mkyong.com/jsf2/spring-autowired-into-jsf-custom-validator/&quot;&gt;into custom JSF   validators&lt;/a&gt;. Very nice post! &lt;/LI&gt;
+&lt;LI&gt;  Our friend Krishna Prasad has a nice post on hwo to implement the control &lt;a HREF =&quot;http://krishnasblog.com/2012/10/21/control-bus-pattern-with-spring-integration-and-jms/&quot;&gt;bus pattern with Spring Integration and JMS&lt;/a&gt;&lt;/LI&gt; 
+ 
+&lt;/OL&gt;</description>
+ <comments>http://www.springsource.org/node/3714#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 23 Oct 2012 17:13:55 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3714 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>vFabric tc Server Fundamentals: Free eLearning Training</title>
+ <link>http://www.springsource.org/vFabric-tcServer-fundamentals-training</link>
+ <description>&lt;p&gt;&lt;div style=&quot;float: right; width:114; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=151431&quot;&gt;&lt;img alt=&quot;vFabric tc Server Fundamentals&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/tc_Server_Fundamentals.png&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+vFabric tc Server is the ideal web application server based on open source Apache Tomcat. It adds features to Tomcat such as operations management and advanced diagnostics. vFabric tc Server has a very lightweight footprint so it is ideal for virtualized environment. To give you an idea how you can benefit from vFabric tc Server, SpringSource has released a &lt;b&gt;free 2.5 hour eLearning training&lt;/b&gt; called &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=151431&quot;&gt;vFabric tc Server Fundamentals&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This 2.5 hour eLearning training provides an introduction to the features of tc Server, its architecture, how to install tc Server, and the basic and advanced runtime configuration of tc Server. In addition, the course also describes tc Server integration with Hyperic.&lt;/p&gt;
+
+&lt;p&gt;The training provides a brief overview of the product, explains the concepts and features, and also enables you to perform basic operations, such as cache configuration, data caching, region creations, and working with functions and listeners.&lt;/p&gt;
+&lt;p&gt;The training consists of five modules:
+&lt;ul&gt;&lt;li&gt;Module 1: vFabric tc Server Introduction and Features&lt;/li&gt;
+&lt;li&gt;Module 2: Installation and Instances&lt;/li&gt;
+&lt;li&gt;Module 3: Integration with Hyperic&lt;/li&gt;
+&lt;li&gt;Module 4: Basic Configuration&lt;/li&gt;
+&lt;li&gt;Module 5: Application Deployment&lt;/li&gt;
+&lt;li&gt;Module 6: Advanced tc Runtime Configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=151431&quot;&gt;Click here to download the training&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For developers interested in winning the professional 4-day vFabric tc Server training or a Spring Training in November &lt;a href=&quot;http://www.springsource.org/spring-prize-contest&quot;&gt;click here&lt;/a&gt;</description>
+ <comments>http://www.springsource.org/vFabric-tcServer-fundamentals-training#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 22 Oct 2012 07:22:13 +0000</pubDate>
+ <dc:creator>Mark Baars</dc:creator>
+ <guid isPermaLink="false">3712 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne2GX Day 3 and conference wrap up</title>
+ <link>http://www.springsource.org/node/3711</link>
+ <description>&lt;p&gt;Our SpringOne 2GX  conference in Washington concluded on Day 3. Sessions were played out to rapt  audiences in packed rooms with far more time spent showing code than slides.  The audience loved the show, and we demonstrated beyond any doubt exactly where  the leadership is in enterprise application development today. I wish that all  of you could have been there to see it.  The  quality of the content this year was outstanding. Sessions have been recorded  on video and captured in HD, and as soon as they become available I encourage  everyone to mine the content, this will be a great resource for the Sprign Community.&lt;br&gt;
+  &lt;br&gt;
+A central theme at the conference was &amp;quot;The New Application Architecture(s)&amp;quot;.  We walked attendees all the way through the stack from how to structure smart  client apps, to building RESTful APIs in Spring, techniques for dealing with  push and websockets, scaling worker processes, dealing with modern data and integration  challenges, and building distributed systems that span multiple  clouds/regions/AZs. We showed that Spring  is more relevant than  ever before as the industry goes through this change. I encourage anyone that  didn&#039;t see the Tuesday night keynote live to take the time out to watch the  recording when it becomes available as this is a story that we should all be  able to tell. Mark Pollack&#039;s section in the opening night keynote completes the  story by filling in the data part. &lt;br&gt;
+&lt;br&gt;
+ Amongst many other highlights, Jon Brisbin&#039;s rest-shell and the Spring Hateoas  project also took the conference by storm. Don&#039;t be surprised if you find  people asking you about them over the coming weeks. Also, &lt;SPAN itemtype=&quot;http://schema.org/Person&quot; itemscope=&quot;itemscope&quot; itemprop=&quot;author&quot;&gt;&lt;SPAN itemprop=&quot;name&quot;&gt;&lt;a href=&quot;http://thinkinginsoftware.blogspot.com/2012/10/notes-on-springone-2012.html?m=1&quot;&gt;Nestor Urquiza&lt;/a&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; and &lt;a href=&quot;http://rvanderwerf.blogspot.com/2012/10/springone2gx-wrap-up.html&quot;&gt;Ryan Vanderwerf &lt;/a&gt;have posted a wonderful summaries of the conference that shouldn&#039;t be missed. &lt;br&gt;
+  &lt;br&gt;
+  Thank you once again to everyone involved in making this conference the best SpringOne2GX yet!&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/wrapup3.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris Harris&lt;/strong&gt; @cj_harris5&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Thanks #s2gx for a great event!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Bernhard Woditschka&lt;/strong&gt; @woditschka&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Spring Data Rest presented by @j_brisbin is pretty amazing - let&#039;s you expose your database as REST service with almost no effort&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Jonah Grimes&lt;/strong&gt; @jmgrimes&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Done with #s12gx and getting ready to head back to the airport. Fantastic conference has my brain and &quot;check this out&quot; list very full.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Brian Cavalier&lt;/strong&gt; @briancavalier&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;still reeling a bit from the amazing response our IOC + JS talk has gotten. Thanks everyone! &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Richard Rijnberk&lt;/strong&gt; @rrijnberk&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;@habuma: Just minutes into the presentation and i&#039;m already intrigued. Well played Mr. Walls&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Andy Piper&lt;/strong&gt;@andypiper&lt;/p&gt;
+&lt;div&gt;
+  &lt;div&gt;
+    &lt;div&gt; Another shout out to@cloudfoundry App Challenge winner Keyboredom&lt;a href=&quot;http://t.co/mvc7ERVZ&quot; target=&quot;_blank&quot; data-full-url=&quot;http://pipr.co/VanYU0&quot; rel=&quot;url&quot;&gt; pipr.co/VanYU0&lt;/a&gt; by @pledbrook at #s2gx&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Jan Machacek&lt;/strong&gt; @honzam399&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;SpringOne 2GX was a blast. Now off to the airport and then home! Many thanks to the organisers, you&#039;ve done terrific job! #s2gx&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Alidad Soleimani&lt;/strong&gt; @Alidadasb &lt;/p&gt;
+&lt;div&gt;Coming back from DC after a great and productive conference #s2gx&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;John T Davies&lt;/strong&gt; @jtdavies&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;RT @cj_harris5: Thanks #s2gx for a great event! - Ditto, a great week and well organised.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Cédric Champeau&lt;/strong&gt; @CedricChampeau&lt;/p&gt;
+&lt;div&gt;
+&lt;div data-key=&quot;259281820993069057&quot;&gt;Time to leave Washington ! Really enjoyed #s2gx !&lt;/div&gt;
+&lt;ul&gt;
+&lt;p&gt;&lt;strong&gt;Justin Griffin&lt;/strong&gt;@griffupdates&lt;/p&gt;
+&lt;div&gt;
+  &lt;div&gt;
+    &lt;div&gt;@j_brisbin very cool demo of #datarest , looking forward to playing with it! #s12gx&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Gunnar Hillert&lt;/strong&gt; @ghillert&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Home at last…Awesome week, a wonderful #s2gx conference + community, great co-workers. Can&#039;t wait until next year - #Spring rocks!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Josh Long&lt;/strong&gt; @starbuxman&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;been super fun, but time for my @springone2gx bag and I to go home. #s12gx -cue Incredibe Hulk closing creds/sad music-&lt;a href=&quot;http://t.co/SQuundD7&quot; target=&quot;_blank&quot; data-full-url=&quot;http://twitter.com/starbuxman/status/259667191555837953/photo/1&quot; data-media-url=&quot;http://pbs.twimg.com/media/A5qF71kCUAEnqtc.jpg:large&quot; data-media-thumb-url=&quot;http://pbs.twimg.com/media/A5qF71kCUAEnqtc.jpg:thumb&quot; rel=&quot;mediaPreview&quot;&gt;pic.twitter.com/SQuundD7&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.springsource.org/node/3711#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Sun, 21 Oct 2012 19:31:08 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3711 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Integration 2.1.4.RELEASE and 2.2.0.RC2 are released!</title>
+ <link>http://www.springsource.org/node/3710</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;Just to close off SpringOne2GX 2012 with the bang, I am pleased to announce the release of Spring Integration 2.1.4.RELEASE and Spring Integration 2.2.0.RC2!&lt;/p&gt;
+&lt;p&gt;Resources for Spring Integration 2.1.4.RELEASE&lt;br /&gt;
+&lt;a href=&quot;http://www.springsource.org/download/community?project=Spring%2520Integration&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-integration/docs/2.1.4.RELEASE/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-integration/docs/2.1.4.RELEASE/reference/htmlsingle/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=13101&quot;&gt;Release notes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Resources for Spring Integration 2.2.0.RC2&lt;br /&gt;
+&lt;a href=&quot;http://www.springsource.org/download/community?project=Spring%2520Integration&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-integration/docs/2.2.0.RC2/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-integration/docs/2.2.0.RC2/reference/htmlsingle/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=13609&quot;&gt;Release notes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read the following blogs to catch up on the new features of Spring Integration 2.2&lt;br /&gt;
+&lt;a href=&quot;http://blog.springsource.org/2012/09/24/whats-new-in-spring-integration-2-2-rc1-part-1-mongodb/&quot;&gt;MongoDb Adapter Support&lt;/a&gt;&lt;br&gt;&lt;br /&gt;
+&lt;a href=&quot;http://blog.springsource.org/2012/09/26/whats-new-in-spring-integration-2-2-part-2-transaction-synchronization/&quot;&gt;Pseudo Transaction and Transaction Synchronization&lt;/a&gt;&lt;br&gt;&lt;br /&gt;
+&lt;a href=&quot;http://blog.springsource.org/2012/10/05/whats-new-in-spring-integration-2-2-part-3-jpa-support/&quot;&gt;JPA Support&lt;/a&gt;&lt;br&gt;&lt;br /&gt;
+&lt;a href=&quot;http://blog.springsource.org/2012/10/09/spring-integration-2-2-retry-and-more/&quot;&gt;Retry&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;and more to follow:&lt;/p&gt;
+&lt;p&gt;Special thanks to our community contributors - &lt;b&gt;&lt;i&gt;Artem Bilan&lt;/i&gt;&lt;/b&gt; and &lt;b&gt;&lt;i&gt;Amol Nayak&lt;/i&gt;&lt;/b&gt; for making these releases happen.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3710#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 19 Oct 2012 19:22:52 +0000</pubDate>
+ <dc:creator>Oleg Zhurakousky</dc:creator>
+ <guid isPermaLink="false">3710 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne2GX Day 2: Wrap Up</title>
+ <link>http://www.springsource.org/node/3709</link>
+ <description>&lt;p&gt;SpringOne2GX Day 2 Wrap Up:&lt;/p&gt;
+&lt;p&gt; Last night Adrian Colyer kicked off Day 2 of the show to a packed room of 1000+ developers in the Washington Hilto, talking about modern, evolved application architecture -- an intelligent Javascript interaction model in the browser that connects to restful services on the server.  Adrian showed how to autoscale across systems and across datacenters, globally, using intelligent messaging.  Thanks @&lt;strong&gt;ryanpmorgan&lt;/strong&gt; for the panoramic shot! Also, check out the &lt;a href=&quot;http://www.flickr.com/photos/nofluffjuststuff/sets/72157631798601354/&quot;&gt;No Fluff Just Stuff Flickr feed&lt;/a&gt; from the conference for more action.&lt;/p&gt;
+&lt;br&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/keynote2.jpg&quot; width=&quot;1026&quot; height=&quot;288&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This year we are recording all the Spring (but not the Groovy / grails) sessions in HD quality, so if you missed the show, don&#039;t worry! We&#039;ll be releasing session recordings at a steady rate in coming months.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paul Beyer&lt;/strong&gt; @plbeyer70&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Spring and Grails are great for single page web apps and new features are being developed. Really cool stuff. #s2gx&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Linda Ponder&lt;/strong&gt; @PonderLinda&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Theres nothing like technology s2gx amazing conference&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Cornelia Davis&lt;/strong&gt; @cdavisafc
+&lt;div&gt;
+  &lt;p&gt;I LOVE the pace of sessions at springone #s2gx - every session is demo heavy and we are screaming through code, code and more code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Andy Piper&lt;/strong&gt; @andypiper
+&lt;div&gt;
+  &lt;p&gt;Watching &lt;a href=&quot;http://twitter.com/adriancolyer&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@adriancolyer&lt;/a&gt; showing federated &lt;a href=&quot;http://twitter.com/RabbitMQ&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@RabbitMQ&lt;/a&gt; exchanges running in different Amazon EC2 regions with global pubsub. With tmux. #s2gx&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Richard Rijnberk&lt;/strong&gt; @rrijnberk
+&lt;div&gt;
+  &lt;p&gt;Really enjoying the keynote. Makes me want to try out message queues and auto scaling. #s2gx&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Adrian Colyer&lt;/strong&gt; @adriancolyer
+&lt;div&gt;So many audience questions on RESTful API design!!! Clearly a hot topic.&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Dealer.com&lt;/strong&gt; @DealerDotCom&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Psyched to get to share our CRM technology at this great tech event! RT @olivergierke:SpringOne 2012 keynote &lt;a href=&quot;instagr.am/p/Q0lGPUm2vV&quot;&gt;instagr.am/p/Q0lGPUm2vV&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Roy Clarkson&lt;/strong&gt; @royclarkson&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;REST rules. &amp;ldquo;&lt;a href=&quot;http://twitter.com/adriancolyer&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@adriancolyer&lt;/a&gt;: Great to see &lt;a href=&quot;http://twitter.com/nebhale&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@nebhale&lt;/a&gt; back on stage at s2gx. Been too long. Room full to bursting for REST with spring.&amp;rdquo;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;STRONG&gt;Arjen Poutsma&lt;/STRONG&gt;‏@&lt;strong&gt;poutsma&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Just introduced Spring Scala at SpringOne: new  project aimed to make it easier to use Spring in Scala. Github will be opened later this month.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cornelia Davis&lt;/strong&gt; @cdavisafc&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://twitter.com/crichardson&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@crichardson&lt;/a&gt; just gave 1 of the best talks I&#039;ve seen on SOA with killer punchline: cloudfoundry as enabling technology &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Richard Rijnberk&lt;/strong&gt; @rrijnberk&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;Awesome presentation by Andres Almiray on griffon. If you build desktop apps look into this. May do a session on this myself&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Michael Pilquist&lt;/strong&gt; @mpilquist&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Interesting &amp;ldquo;&lt;a href=&quot;http://twitter.com/sobychacko&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@sobychacko&lt;/a&gt;: Spring Scala - a new spring portfolio project announced by Arjen Poutsma at s2gx.&amp;quot;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Richard Rijnberk&lt;/strong&gt; @rrijnberk&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;A highly theoretical approach to describing websockets. I was sad to see the browser support statistics. Good pres. though. #s2gx &lt;/p&gt;
+  &lt;div data-key=&quot;258566410920394752&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.springsource.org/node/3709#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 18 Oct 2012 18:01:04 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3709 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data JDBC Extensions with Oracle Database Support 1.0.0.RC4 Released</title>
+ <link>http://www.springsource.org/node/3708</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;We are pleased to announce that the fourth and last release candidate (1.0.0.RC4) of the Spring Data JDBC Extensions 1.0 project with Oracle Database support is now available!&lt;/p&gt;
+&lt;p&gt;The new Spring Data JDBC Extensions project was created to provide additional support for vendor specific JDBC extensions as well as new approaches to working with JDBC like QueryDSL. The bulk of the support is made up of code ported from the SpringSource project &quot;Advanced Pack for Oracle Database&quot; that was available for support subscription customers. We are now making this code available to all Spring users and any new developments will be made in the Spring Data JDBC Extensions project.&lt;/p&gt;
+&lt;p&gt;To learn more about the project, visit the Spring Data JDBC Extensions &lt;a href=&quot;http://www.springsource.org/spring-data/jdbc-extensions&quot;&gt;Homepage&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;The most important changes for the four release candidates are:&lt;/p&gt;
+&lt;p&gt;General&lt;br /&gt;
+* Changed build to use Gradle&lt;br /&gt;
+* Added documentation chapter for QueryDSL SQL module&lt;/p&gt;
+&lt;p&gt;Core&lt;br /&gt;
+* Adding One-to-Many ResultSetExtractor implementation&lt;br /&gt;
+* Adding exception translation to QueryDslJdbcTemplate&lt;/p&gt;
+&lt;p&gt;Oracle&lt;br /&gt;
+* Parameterizing classes used for mapping of advanced data types&lt;br /&gt;
+* Adding support for mapping ARRAYs of STRUCTs in addition to scalar values&lt;/p&gt;
+&lt;p&gt;Looking forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=27&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/DATAJDBC&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20JDBC&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jdbc/docs/1.0.0.RC4/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jdbc/docs/1.0.0.RC4/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jdbc/docs/1.0.0.RC4/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3708#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 17 Oct 2012 22:27:16 +0000</pubDate>
+ <dc:creator>Thomas Risberg</dc:creator>
+ <guid isPermaLink="false">3708 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring for Apache Hadoop 1.0 RC1 Released</title>
+ <link>http://www.springsource.org/node/3707</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;In time for SpringOne2GX 2012, I am pleased to announce the first release candidate, 1.0 RC1 for Spring for Apache Hadoop:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20Hadoop&amp;amp;version=1.0.0.RC1&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/hadoop/docs/1.0.0.RC1/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/hadoop/docs/1.0.0.RC1/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/hadoop/docs/1.0.0.RC1/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RC1 provides important bug fixes and enhancements and introduces new features such as:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.org/node/3707&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3707#comments</comments>
+ <pubDate>Wed, 17 Oct 2012 20:10:58 +0000</pubDate>
+ <dc:creator>Costin Leau</dc:creator>
+ <guid isPermaLink="false">3707 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data Redis 1.0.2 Released</title>
+ <link>http://www.springsource.org/node/3706</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;Just in time for SpringOne2GX 2012, I am pleased to announce the GA release of Spring Data Redis 1.0.2 project!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20Redis&amp;amp;version=1.0.2.RELEASE&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-redis/docs/1.0.2.RELEASE/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-redis/docs/1.0.2.RELEASE/reference/html&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-redis/docs/1.0.2.RELEASE/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Data Redis 1.0.2 is a maintenance release providing several enhancements:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.org/node/3706&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3706#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 17 Oct 2012 19:41:10 +0000</pubDate>
+ <dc:creator>Costin Leau</dc:creator>
+ <guid isPermaLink="false">3706 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - 16 October, 2012</title>
+ <link>http://www.springsource.org/node/3705</link>
+ <description>&lt;div style = &quot;margin-top:10px; margin-bottom:10px;&quot; &gt; &lt;img src = &quot;http://www.springsource.org/files/springone2012keynoteday1a.jpg&quot; width = &quot;400&quot; /&gt; &lt;/div&gt;&lt;p&gt;  Welcome to &lt;EM&gt;This Week in Spring&lt;/EM&gt;, &lt;A href =&quot;http://www.springone2gx.com&quot;&gt;SpringOne2GX 2012 &lt;/A&gt; edition! I&#039;m putting this together from day 2 of the SpringOne2GX conference in Washington D.C.! &lt;/p&gt; &lt;Div style = &quot;margin-top:10px; margin-bottom:10px;&quot;&gt; &lt;img src = &quot;http://www.springsource.org/files/juergenkn.jpg&quot; width = &quot;400&quot; /&gt;&lt;/DIv&gt; &lt;P&gt; Last night, we kicked off the event with a great keynote by &lt;a href=&quot;http://springone2gx.com/conference/washington/2012/10/speakers/juergen_hoeller&quot;&gt;Juergen Hoeller&lt;/a&gt; (pictured above), &lt;a href=&quot;http://springone2gx.com/conference/washington/2012/10/speakers/mark_pollack&quot;&gt;Dr. Mark Pollack&lt;/a&gt;, &lt;a href = &quot;http://springone2gx.com/conference/washington/2012/10/speakers/graeme_rocher&quot;&gt;Graeme Rocher&lt;/A&gt;, and &lt;A href=&quot;http://springone2gx.com/conference/washington/2012/10/speakers/adrian_colyer&quot;&gt;Adrian Colyer&lt;/a&gt;, some amazing break dancing by international dancer &lt;EM&gt;Agame&lt;/EM&gt;, and a &lt;EM&gt;mysterious&lt;/EM&gt; kangaroo (see below)! &lt;/p&gt; &lt;div&gt; &lt;img src = &quot;http://www.springsource.org/files/kangaroo.jpg&quot; width = &quot;200&quot; style = &quot;margin-top:10px; margin-bottom:10px;&quot;/&gt; &lt;img src = &quot;http://www.springsource.org/files/prizes.jpg&quot; width = &quot;200&quot; style = &quot;margin-top:10px; margin-bottom:10px;&quot;/&gt; &lt;/div&gt; &lt;P&gt; This is the premier event for JVM developers, featuring &lt;a href = &quot;http://springone2gx.com/conference/washington/2012/10/schedule&quot;&gt;great speakers from VMWare, SpringSource, TypeSafe, Neo4j, and many others&lt;/a&gt; speaking on all manner of topics. The week is just kicking off. While the conference is running, there&#039;s also going to be a contest to find the best applications built using SpringSource technologies (Spring, Grails) and deployed to &lt;A href =&quot;http://www.cloudfoundry.org&quot;&gt;Cloud Foundry&lt;/A&gt;. I&#039;ve seen the prizes (above), and I would enter too if I could!   &lt;/P&gt; &lt;div&gt; &lt;img src = &quot;http://www.springsource.org/files/CampaignBtn_Spring.png&quot;/&gt; &lt;img src = &quot;http://www.springsource.org/files/CampaignBtn_Grails.png&quot;/&gt; &lt;img src = &quot;http://www.springsource.org/files/CampaignBtn_CloudFoundry.png&quot;/&gt; &lt;img src = &quot;http://www.springsource.org/files/CampaignBtn_Groovy.png&quot;/&gt; &lt;/div&gt; 
+	
+	&lt;P&gt; If you&#039;re at the show, be sure to stop by the SpringSource and Cloud Foundry booths in the expo hall and pick up shwag and answers to your lingering questions. I&#039;ll be there tomorrow, in the evening.&lt;/p&gt;&lt;P&gt; Anyway, I won&#039;t linger &lt;EM&gt;too&lt;/EM&gt; much on what you&#039;re missing! Let&#039;s move on to this week&#039;s roundup because, as usual, there&#039;s a lot to cover! &lt;/p&gt; 
+		
+		&lt;OL&gt; 
+			&lt;LI&gt;Want to learn about what else has happened at SpringOne2GX? Check &lt;a href= &quot;http://www.springsource.org/node/3704&quot;&gt;out this fantastic wrap up of day 1&lt;/a&gt;&lt;/LI&gt;
+			&lt;LI&gt; The Spring Data release train has finally arrived! Check out Oliver Gierke&#039;s post on the latest and greatest in  &lt;a href= &quot;http://blog.springsource.org/2012/10/15/spring-data-release-train-arrived/&quot;&gt;in the GA versions of the Spring Data modules&lt;/a&gt;&lt;/LI&gt;
+			&lt;LI&gt; Tool Suite ninja and Spring Expression language lead Andy Clement has announced &lt;a href=&quot;http://blog.springsource.org/2012/10/11/scripted-a-javascript-editor-from-vmware/&quot;&gt;&lt;EM&gt;Scripted&lt;/EM&gt;, a web-based JavaScript editor based itself entirely in JavaScript, and Node.js&lt;/A&gt;.&lt;/LI&gt;
+			&lt;LI&gt;James Ward put together a nice post &lt;a href= &quot;http://feeds.dzone.com/~r/dzone/frontpage/~3/CwafPTlsIPw/nosql_inside_sql_with_java_spring_hibernate_and_p.html&quot;&gt;on how to use NoSQL inside SQL, with Java, Spring, Hibernate and PostgreSQL&lt;/a&gt; &lt;/LI&gt; 
+			&lt;LI&gt;Our friend Krishna Prasad is back, this time with a post about &lt;a href= &quot;http://krishnasblog.com/2012/10/15/junit-testing-rest-services-and-spring-mvc/&quot;&gt;jUnit testing of REST services and Spring MVC&lt;/a&gt;&lt;/LI&gt; 
+			&lt;LI&gt;Spring Data Neo4J lead Michael Hunger, (via  Andreas Kollegger) has put together a nice blog on &lt;a href =&quot;http://feeds.dzone.com/~r/dzone/frontpage/~3/E0fdgMbAyEo/using_spring_data_neo4j_for_the_hubway_data_chall.html&quot;&gt;how to use Spring Data Neo4j for the Hubway Data Challenge&lt;/a&gt; &lt;/LI&gt; 
+			&lt;LI&gt;Speaking of Neo4j, there are some great talks from them at SpringOne this week -- be sure to check out their &lt;a href=&quot;http://blog.neo4j.org/2012/10/neo4j-at-springone-2gx-2012-in.html&quot;&gt;preview of what&#039;s what and who&#039;s who if you&#039;re at the event!&lt;/a&gt;&lt;/LI&gt; 
+	 
+ 
+			&lt;LI&gt; Andriy Redko has introduced how to achieve publish/subscribe-style messaging   &lt;a href=&quot;http://feeds.dzone.com/~r/javalobby/frontpage/~3/dTbadB4uaxI/redis-pubsub-using-spring&quot;&gt;Redis and Spring&lt;/a&gt;.&lt;/LI&gt; 
+ 
+ 
+ 
+ 			&lt;LI&gt;Security&#039;s an important part of any application, and should be designed into the application from the beginning. Thankfully, Spring Security makes it easy. Grisha Mykhalyuno  has put together a nice blog &lt;a href=&quot;http://www.grygoriy.com/2012/10/prevent-brut-force-attack-with-spring.html&quot;&gt;on  preventing brute force attacks with Spring Security&lt;/a&gt;.&lt;/LI&gt; 
+			 
+			&lt;LI&gt; Roger Hughes is back, this time with a specific point about Spring  MVC&#039;s ability to &lt;a href=&quot;http://feeds.dzone.com/~r/dzone/frontpage/~3/lTLOrKgElHY/a_footnote_on_accessing_request_parameters_using.html&quot;&gt;map runtime parameters in controller methods to request parameters based on the variable name&lt;/a&gt;&lt;/li&gt;
+			&lt;LI&gt;Our friend  Krishna Prasad is at it &lt;em&gt;again&lt;/EM&gt;! This time, he&#039;s got a nice post on how to &lt;a href=&quot;http://krishnasblog.com/2012/10/10/publish-subscribe-with-vfabric-rabbitmq-and-spring-integration-using-spring-amqp/&quot;&gt;use vFabric RabbitMQ and Spring Integration (over Spring AMQP) to handle publish-subscribe messaging&lt;/a&gt;.   &lt;/li&gt;
+			&lt;LI&gt;
+				Jiji Sasidharan introduces &lt;a href=&quot;http://feeds.dzone.com/~r/dzone/frontpage/~3/2KK4pACfn7s/spring_required.html&quot;&gt;Spring&#039;s &lt;CODE&gt;@Required&lt;/CODE&gt; annotation&lt;/a&gt;
+&lt;/li&gt;
+			&lt;LI&gt; Mike Hadlow introduces his &lt;a href=&quot;http://feeds.dzone.com/~r/dzone/frontpage/~3/R7b517LUshI/easynetq_cluster_support.html&quot;&gt;new, alternative .NET RabbitMQ API in this post&lt;/a&gt;. The new API seems powerful and interesting. &lt;/li&gt;											
+			&lt;/oL&gt;</description>
+ <comments>http://www.springsource.org/node/3705#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 17 Oct 2012 05:21:40 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3705 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne2GX Day 1: Wrap Up</title>
+ <link>http://www.springsource.org/node/3704</link>
+ <description>&lt;p&gt;SpringOne2GX Day 1 Wrap Up:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.vmware.com/company/news/releases/vmw-springone-10-1512.html&quot;&gt;Washington DC is alive&lt;/a&gt; with Spring, Groovy and Grails developers at our largest SpringOne 2GX event to date!  Last night Adrian Colyer, Juergen Hoeller, Mark Pollack, and Graeme Rocher kicked off the show to a packed room of 1000+ developers in the Washington Hilton, talking about new application architecture for enterprise Java developers for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt;Intelligent Data:&lt;/strong&gt; performing fast queries against large and unstructured data&lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt;Intelligent Clouds:&lt;/strong&gt; Push to Cloud models, Quality of Service, Elasticity, Scalability&lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt;Intelligent Clients:&lt;/strong&gt; support for HTML5, REST and HATEOAS driven user interface&lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt;Architecture Evolution:&lt;/strong&gt; from server side apps toward &amp;ldquo;Applications and Services&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Grails Evolution:&lt;/strong&gt;   building a single page web application with angular.js and mongoDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/img.jpg&quot; width=&quot;309&quot; height=&quot;309&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This year we are recording all the Spring (but not the Groovy / grails) sessions in HD quality, so if you missed the show, don&#039;t worry! We&#039;ll be releasing session recordings at a steady rate over the next few months on www.springsource.org, so check back on the website often.  &lt;/p&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Dan Miller&lt;/STRONG&gt;‏@&lt;strong&gt;hockeymann44&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; I wish the content and format of other technical conferences could be more like &lt;strong&gt;SpringOne2GX&lt;/strong&gt;&lt;/p&gt;
+&lt;DIV&gt;&lt;STRONG&gt;nckles&lt;/STRONG&gt;‏@&lt;strong&gt;blunck2&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; wow.  spring data rest is awesome!&lt;/p&gt;
+&lt;DIV&gt;&lt;STRONG&gt;jeffscottbrown&lt;/STRONG&gt;‏@&lt;strong&gt;jeffscottbrown&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; Speaking at SpringOne/2GX next week, for me the most important JVM conference of the year. &lt;/p&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Splunk&lt;/STRONG&gt;‏@&lt;strong&gt;splunk&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; At &lt;strong&gt;SpringOne&lt;/strong&gt; to learn about Enterprise Developer tools for wrangling dev projects or &lt;strong&gt;bigdata&lt;/strong&gt; projects? Check &lt;strong&gt;Splunk&lt;/strong&gt; &lt;A dir=&quot;ltr&quot; title=&quot;http://dev.splunk.com&quot; href=&quot;http://t.co/TohFwrMi&quot; target=&quot;_blank&quot; data-expanded-url=&quot;http://dev.splunk.com&quot;&gt;http://dev.splunk.com &lt;/A&gt;&lt;/p&gt;
+&lt;DIV&gt;&lt;/DIV&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Cédric Champeau&lt;/STRONG&gt;‏@&lt;strong&gt;CedricChampeau&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; Full room for @&lt;strong&gt;venkat_s&lt;/strong&gt; talk &quot;Design patterns in Groovy&amp;quot;&lt;A dir=&quot;ltr&quot; href=&quot;/search?q=%23s2gx&amp;src=hash&quot; data-query-source=&quot;hashtag_click&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/A&gt; &lt;A dir=&quot;ltr&quot; href=&quot;http://t.co/DrOXWZ9o&quot; data-pre-embedded=&quot;true&quot;&gt;pic.twitter.com/DrOXWZ9o&lt;/A&gt;&lt;/p&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Colin Harrington&lt;/STRONG&gt;‏@&lt;strong&gt;ColinHarrington&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; Burt&#039;s Programming Grails book: &lt;A dir=&quot;ltr&quot; title=&quot;http://shop.oreilly.com/product/0636920024750.do&quot; href=&quot;http://t.co/YWQvmYOD&quot; target=&quot;_blank&quot; data-expanded-url=&quot;http://shop.oreilly.com/product/0636920024750.do&quot;&gt;http://shop.oreilly.com/product/0636920024750.do …&lt;/A&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;JDriven&lt;/strong&gt; @jdriven_nl&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;Rob Winch&#039;s talk about &lt;a href=&quot;http://twitter.com/search?q=%23thymeleaf&quot; rel=&quot;hashtag&quot; target=&quot;_blank&quot;&gt;#thymeleaf&lt;/a&gt; is pretty cool. Can&#039;t wait to try it out. Might have short term use for it. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;corinne&lt;/strong&gt; @corinnekrych&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://twitter.com/search?q=%23groovy&quot; rel=&quot;hashtag&quot; target=&quot;_blank&quot;&gt;#groovy&lt;/a&gt; DSL talk with &lt;a href=&quot;http://twitter.com/glaforge&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@glaforge&lt;/a&gt;and &lt;a href=&quot;http://twitter.com/werdnagreb&quot; rel=&quot;user&quot; target=&quot;_blank&quot;&gt;@werdnagreb&lt;/a&gt; at 4:30pm in Georgetown room, wish I was there&lt;/p&gt;
+&lt;/div&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Dierk König&lt;/STRONG&gt;‏@&lt;strong&gt;mittie&lt;/strong&gt;&lt;/DIV&gt;
+&lt;p&gt; Thx everybody for the #&lt;strong&gt;s2gx&lt;/strong&gt; tweets. Keep them coming for us lazy stay-at-homers.&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3704#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 16 Oct 2012 21:09:27 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3704 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>

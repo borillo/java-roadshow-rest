@@ -1,0 +1,35 @@
+2012-10-25 12:25:17,816 ERROR [Worker-3] - System.err - java.lang.reflect.InvocationTargetException
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at java.lang.reflect.Method.invoke(Method.java:601)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.invokeMethod(RooCoreActivator.java:99)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.registerHttpPgpUrlHandler(RooCoreActivator.java:123)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.access$0(RooCoreActivator.java:106)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator$1.run(RooCoreActivator.java:77)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - Caused by: java.lang.NullPointerException
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at java.util.TreeSet.addAll(TreeSet.java:300)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - at org.springframework.roo.felix.pgp.PgpServiceImpl.trustDefaultKeys(PgpServiceImpl.java:96)
+2012-10-25 12:25:17,821 ERROR [Worker-3] - System.err - ... 9 more
+2012-10-25 13:58:30,612 ERROR [Thread-6] - System.err - oct 25, 2012 1:58:30 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+WARNING: Cookie rejected: "$Version=0; JSESSIONID=2E1ACA99770EC1884CFAEB4B7906DBA8; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_1.6.x/p2.index"
+2012-10-25 13:58:30,992 ERROR [Worker-3] - System.err - oct 25, 2012 1:58:30 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+WARNING: Cookie rejected: "$Version=0; JSESSIONID=5CDC4A0D5B6CC78B61935B6102C3082A; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_1.6.x/content.jar"
+2012-10-25 13:58:31,181 ERROR [Worker-2] - System.err - oct 25, 2012 1:58:31 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+WARNING: Cookie rejected: "$Version=0; JSESSIONID=496D73FA15611D8A9581FE0B7DF35833; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_1.6.x/content.xml"
+2012-10-25 13:58:39,095 ERROR [Worker-5] - System.err - java.lang.reflect.InvocationTargetException
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at java.lang.reflect.Method.invoke(Method.java:601)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.invokeMethod(RooCoreActivator.java:99)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.registerHttpPgpUrlHandler(RooCoreActivator.java:123)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator.access$0(RooCoreActivator.java:106)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.springframework.ide.eclipse.roo.core.RooCoreActivator$1.run(RooCoreActivator.java:77)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - Caused by: java.lang.NullPointerException
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at java.util.TreeSet.addAll(TreeSet.java:300)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - at org.springframework.roo.felix.pgp.PgpServiceImpl.trustDefaultKeys(PgpServiceImpl.java:96)
+2012-10-25 13:58:39,096 ERROR [Worker-5] - System.err - ... 9 more
+2012-10-25 14:04:00,751 ERROR [Worker-7] - System.err - [org.eclipse.ajdt.ui] error at org/eclipse/ajdt/internal/ui/AspectJProjectNature.java::0 class 'org.eclipse.ajdt.internal.ui.AspectJProjectNature' is already woven and has not been built in reweavable mode
