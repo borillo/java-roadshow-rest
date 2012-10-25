@@ -41,8 +41,8 @@
 
         <section>
           <h2>Yo</h2>
-          <pre><code>
-          var presentacion = {
+          <pre><code class="javascript">
+          {
              name : 'Ricardo Borillo',
              company : 'Universitat Jaume I',
              mail : 'borillo@uji.es',
@@ -95,7 +95,25 @@
         </section>
 
         <section>
-          <h3>Incovenientes de los servicios basados en SOAP:</h2>
+          <h3>La gran ventaja de REST</h3>
+          <h2>Aprovecha al máximo la insfrastructura de HTTP</h2>
+          <p>Simplicidad, escalabilidad, cacheo, seguridad, ...</p>
+        </section>
+
+        <section>
+          <h1>REST != RPC</h1>
+          <p>Evitar cosas como:</p>
+          <pre><code class="no-highlight">/getUsuario
+/getAllAsuarios
+/modificaCuentaById</code></pre>
+          <p>En su lugar utilizamos nombres que definen recursos:</p>
+          <pre><code class="no-highlight">/usuarios
+/usuarios/1
+/usuarios/1/facturas</code></pre>
+        </section>
+
+        <section>
+          <h3>No usamos SOAP porque:</h2>
           <ul>
             <li>Complejo y dificil de mantener (WSDL)</li>
             <li class="fragment">Necesidad de un framework también en el cliente</li>
@@ -107,6 +125,9 @@
         </section>
 
         <section style="background: url(img/ws.png) no-repeat center; background-size:cover;">
+        </section>
+
+        <section style="background: url(img/empresas.png) no-repeat center; background-size:cover;">
         </section>
 
         <section style="background: url(img/rest.png) no-repeat center; background-size:cover;">
@@ -130,11 +151,11 @@
           <h3>HTTP: Accediendo a contenidos en la web</h3>
 
           <p>Desde línea de comandos</p>
-          <pre><code>curl -XGET http://www.google.es/</code></pre>
+          <pre><code class="no-highlight">curl -XGET http://www.google.es/</code></pre>
 
           <div class="fragment">
             <p>Desde algún lenguaje de programación como Java</p>
-            <pre><code>DefaultHttpClient httpclient = new DefaultHttpClient();
+            <pre><code class="java">DefaultHttpClient httpclient = new DefaultHttpClient();
 HttpGet httpGet = new HttpGet("http://www.google.es/");
 HttpResponse response = httpclient.execute(httpGet);</code></pre>
           </div>
@@ -143,7 +164,7 @@ HttpResponse response = httpclient.execute(httpGet);</code></pre>
         <section>
           <h3>HTTP: Accediendo a contenidos en la web</h3>
             <p>O con el API cliente de Jersey JAX-RS:</p>
-            <pre><code>Client client = Client.create();
+            <pre><code class="java">Client client = Client.create();
 WebResource webResource = client.resource("http://www.google.es/");
 ClientResponse response = webResource.accept("text/html").get(ClientResponse.class);
 if (response.getStatus() == 200) {
@@ -158,12 +179,13 @@ if (response.getStatus() == 200) {
         </section>
 
         <section>
-          <h3>REST está orientado a recursos. Verbos:</h3>
+          <h3>REST está orientado a recursos. Estos son nombres, no verbos. Acciones:</h3>
           <ul>
             <li><strong>GET</strong>: Recuperación de un recurso</li>
             <li><strong>POST</strong>: Creación de un nuevo recurso</li>
             <li><strong>PUT</strong>: Modificación de un recurso o creación si ya conocemos la clave</li>
             <li><strong>DELETE</strong>: Eliminación de un recurso</li>
+            <li><strong>HEAD</strong>: Envío sólo de cabeceras. Muy utilizada para comprobar el Last-Modified.</li>
           </ul>
         </section>
 
@@ -171,11 +193,11 @@ if (response.getStatus() == 200) {
           <h3>Ejemplos:</h3>
 
           <p>Lista todos los coches o recupera uno</p>
-          <pre><code style="padding:1em;">GET /cars
+          <pre><code class="no-highlight" style="padding:1em;">GET /cars
 GET /cars/1234AAW</code></pre>
 
           <p>Añade, modifica o elimina un coche</p>
-          <pre><code style="padding:1em;">POST /cars
+          <pre><code class="no-highlight" style="padding:1em;">POST /cars
 PUT /cars/1234AAW
 DELETE /cars/1234AAW</code></pre>
         </section>
@@ -190,7 +212,7 @@ DELETE /cars/1234AAW</code></pre>
         </section>
 
         <section>
-          <h3>Diseño de un API:</h2>
+          <h1>Diseño de un API</h1>
           <ul>
             <li>Nos centramos en nuestro negocio: Buen diseño del software</li>
             <li class="fragment">Exposición de nuestro modelo como recursos</li>
@@ -200,51 +222,145 @@ DELETE /cars/1234AAW</code></pre>
         </section>
 
         <section>
-          <h3>Independencia del interfaz gráfico:</h3>
+          <h3>Independencia de la capa cliente:</h3>
           <img src="img/multiplataforma.png" />
         </section>
 
-        <section style="background: url(img/showcode.png) no-repeat center; background-size:cover;">
+        <section>
+          <h1>Jersey JAX-RS</h1>
         </section>
 
         <section>
-          <h2>Jersey JAX-RS</h2>
-          <p></p>
+          <h3>¿Qué es?</h3>
+          <p>Jersey es la implementación Java de referencia del estándar JAX-RS para la definición de servicios REST:</p>
+          <pre><code class="no-highlight">https://jersey.dev.java.net/</code></pre>
+          <img width="20%" src="img/jersey.png" />
         </section>
 
         <section>
-          <h3>Petición HTTP:</h3>
-          <pre><code>GET /recurso/base?param=valor HTTP/1.1
-Host: www.uji.es
-User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; es-CL; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language : es-cl,es;q=0.8,en-us;q=0.5,en;q=0.3
-Accept-Encoding: gzip,deflate
-Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
-Keep-Alive: 115
-Connection: keep-alive</code></pre>
+          <h3>¿Qué es?</h3>
+          <p>Mapear peticiones HTTP a código Java</p>
+          <p><strong>@GET</strong> / <strong>@POST</strong> / <strong>@PUT</strong> / <strong>@DELETE</strong></p>
+          <pre><code class="java">@Path("users")
+public class UsersResource 
+{
+   @GET
+   public List&lt;User> getUsers() {
+      ...
+   }
+}</code></pre>
+          <pre><code class="no-highlight">GET /users</code></pre>
         </section>
 
         <section>
-          <h3>Respuesta HTTP:</h3>
-          <pre><code>HTTP/1.1 200 OK
-Cache-Control: private
-Content-Type: text/html
-Connection: Keep-Alive
-Keep-Alive: timeout=30, max=999
-Server: Oracle-HTTP-Server OracleAS-Web-Cache-10g/10.1.2.3.0 (H;max-age=3600+360;age=350;ecid=759620335360,0)
-Content-Length: 25671
-Date: Thu, 14 Oct 2010 17:05:03 GMT</code></pre>
+          <h3>¿Qué es?</h3>
+          <p>Mapear parámetros de URL a parámetros de entrada a los métodos</p>
+          <p><strong>@PathParam</strong> / <strong>@QueryParam</strong></p>
+          <pre><code class="java">@GET
+@Path("/users/{userId}")
+public User getUser(
+   @PathParam("userId") String userId, 
+   @QueryParam("debug") @DefaultValue("5") String debug) 
+{ 
+}</code></pre>
+          <pre><code class="no-highlight">GET /users/1421?debug=S</code></pre>
+        </section>
+
+        <section>
+          <h3>¿Qué es?</h3>
+          <p>Declaración del formato de los contenidos recibidos o emitidos</p>
+          <p><strong>@Consumes</strong> / <strong>@Produces</strong></p>
+          <pre><code class="java">@GET
+@Produces(MediaType.APPLICATION_XML)
+public List&lt;User> getUsers() { 
+}
+
+@PUT
+@Consumes(MediaType.APPLICATION_JSON)
+public void updateUser(User user) { 
+}</code></pre>
+        </section>
+
+        <section>
+          <h3>Mapeo de la petición HTTP:</h3>
+          <img src="img/mapeo.png">
+        </section>
+
+        <section>
+          <h3>Mapeo de la respuesta HTTP:</h3>
+          <img src="img/mapeo-respuesta.png">
         </section>
 
         <section>
           <h3>Códigos de respuesta HTTP:</h3>
-          <ul style="font-size:60%;">
-            <li>Informational 1xx (100 Continue, 101 Switching protocols)</li>
-            <li>Successful 2xx (200 OK, 201 Created, 202 Accepted, 204 No Content)</li>
-            <li>Redirection 3xx (301 Moved Permanently, 302 Found, 304 Not Modified</li>
-            <li>Client Error 4xx (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 405 Method Not Allowed)</li>
-            <li>Server Error 5xx (500 Internal Server Error, 501 Not Implemented, 502 Bad Gateway, 503 Service Unavailable)</li>
+          <ul style="font-size:70%;">
+            <li><strong>1xx</strong> Informativos</li>
+            <li><strong>2xx</strong> De éxito (200 OK, 201 Created, 202 Accepted, 204 No Content)</li>
+            <li><strong>3xx</strong> Redirecciones (301 Moved Permanently, 302 Found, 304 Not Modified</li>
+            <li><strong>4xx</strong> Error en cliente (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 405 Method Not Allowed)</li>
+            <li><strong>5xx</strong> Error en servidor (500 Internal Server Error, 501 Not Implemented, 502 Bad Gateway, 503 Service Unavailable)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Generación de distintos formatos:</h3>
+          <ul>
+            <li><strong>XML/JSON</strong> JAXB y Jackson</li>
+            <li><strong>ATOM</strong> Apache Abdera</li>
+            <li><strong>Personalizado</strong> MessageBodyReader y MessageBodyWriter</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Ejemplo JSON:</h3>
+          <pre><code class="java">@XmlRootElement
+public class User {
+   private Long id;
+   private String name;
+}</code></pre>
+          <pre><code class="java">@Path("users")
+public class UserResource {
+   @GET
+   @Produces({ "application/json", "text/xml" })
+   public User getUser() {
+      return new User(1, "Usuario 1");
+   }
+ }</code></pre>
+          <pre><code class="no-highlight" style="font-size: 80%;">GET -XGET -H "Accept: application/json" http://api.host.com/users
+GET -XGET -H "Accept: text/xml" http://api.host.com/users</code></pre>
+        </section>        
+
+        <section>
+          <h3>Cliente de acceso al servicio JSON:</h3>
+          <pre><code class="java">@Path("users")
+public class UserResource {
+   @GET
+   @Path("{id}")
+   @Produces({ "application/json", "text/xml" })
+   public User getUser(@PathParam("id") String id) {
+      return new User(id, "Usuario 1");
+   }
+ }</code></pre>
+          <pre><code class="java">Client client = Client.create();
+WebResource resource = client.resource("http://api.host.com/");
+ClientResponse response = resource.path("/users/1").get(ClientResponse.class);
+User user = response.getEntity(User.class)</code></pre>
+        </section>
+
+        <section style="background: url(img/showcode.png) no-repeat center; background-size:cover;">
+        </section>        
+
+        <section>
+          <h3>Otras funcionalidades disponibles:</h3>
+          <ul>
+            <li>Seguridad: OAuth, SSL, etc</li>
+            <li class="fragment">Logging</li>
+            <li class="fragment">Gestión de excepciones</li>
+            <li class="fragment">Soporte para Spring Framework</li>
+            <li class="fragment">API de acceso cliente</li>
+            <li class="fragment">Uploads: Jersey Multipart</li>
+            <li class="fragment">Testing: Jersey Test Framework</li>
+            <li class="fragment">Y mucho más ...</li>
           </ul>
         </section>
 
