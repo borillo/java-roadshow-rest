@@ -1,5 +1,2 @@
-examples/.metadata
-examples/Servers
-examples/jersey-simple/target
-examples/jersey-maven/
-examples/jersey-spring/target
+examples/.metadata/
+examples/Servers/
