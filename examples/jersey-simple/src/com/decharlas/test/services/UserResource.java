@@ -21,51 +21,45 @@ import com.decharlas.test.dao.UserDAO;
 import com.decharlas.test.model.User;
 
 @Path("users")
-public class UserResource
-{
-    private UserDAO userDAO;
+public class UserResource {
+	private UserDAO userDAO;
 
-    public UserResource()
-    {
-        this.userDAO = new UserDAO();
-    }
+	public UserResource() {
+		this.userDAO = new UserDAO();
+	}
 
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public List<User> getAll()
-    {
-        return this.userDAO.getUsers();
-    }
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<User> getAll() {
+		return this.userDAO.getUsers();
+	}
 
-    @DELETE
-    @Path("{id}")
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response remove(@PathParam("id") String id)
-    {
-        this.userDAO.removeUser(Integer.parseInt(id));
+	@DELETE
+	@Path("{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response remove(@PathParam("id") String id) {
+		this.userDAO.removeUser(Integer.parseInt(id));
 
-        return Response.noContent().build();
-    }
+		return Response.noContent().build();
+	}
 
-    @POST
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response add(User user, @Context UriInfo uriInfo)
-    {
-        User newUser = this.userDAO.addUser(user);
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response add(User user, @Context UriInfo uriInfo) {
+		User newUser = this.userDAO.addUser(user);
 
-        UriBuilder uriBuilder = uriInfo.getAbsolutePathBuilder();
-        URI newUri = uriBuilder.path(String.valueOf(newUser.getId())).build();
+		UriBuilder uriBuilder = uriInfo.getAbsolutePathBuilder();
+		URI newUri = uriBuilder.path(String.valueOf(newUser.getId())).build();
 
-        return Response.created(newUri).entity(newUser).build();
-    }
+		return Response.created(newUri).entity(newUser).build();
+	}
 
-    @PUT
-    @Path("{id}")
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public User update(User user)
-    {
-        return this.userDAO.updateUser(user);
-    }
+	@PUT
+	@Path("{id}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public User update(User user) {
+		return this.userDAO.updateUser(user);
+	}
 }
