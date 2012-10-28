@@ -1,0 +1,350 @@
+{
+   "completed_in":0.041,
+   "max_id":261866327352963072,
+   "max_id_str":"261866327352963072",
+   "next_page":"?page=2&max_id=261866327352963072&q=oracle%2Broadshow",
+   "page":1,
+   "query":"oracle%2Broadshow",
+   "refresh_url":"?since_id=261866327352963072&q=oracle%2Broadshow",
+   "results":[
+      {
+         "created_at":"Fri, 26 Oct 2012 16:26:12 +0000",
+         "from_user":"peoug",
+         "from_user_id":167790912,
+         "from_user_id_str":"167790912",
+         "from_user_name":"PEOUG",
+         "geo":null,
+         "id":261866327352963072,
+         "id_str":"261866327352963072",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2573643056\/10k1cihevceixjffb434_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2573643056\/10k1cihevceixjffb434_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/www.hootsuite.com&quot;&gt;HootSuite&lt;\/a&gt;",
+         "text":"http:\/\/t.co\/AH5IHSVt presenta en la UJI una sesión sobre Oracle Java ... - el periodic http:\/\/t.co\/f6dJns3R",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Fri, 26 Oct 2012 15:43:48 +0000",
+         "from_user":"M3M0_HP",
+         "from_user_id":237011573,
+         "from_user_id_str":"237011573",
+         "from_user_name":"Guillermo Hdez.",
+         "geo":null,
+         "id":261855658872283136,
+         "id_str":"261855658872283136",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2659092306\/c07b5a30236e4321704ff2dd47e6c102_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2659092306\/c07b5a30236e4321704ff2dd47e6c102_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/www.facebook.com\/twitter&quot;&gt;Facebook&lt;\/a&gt;",
+         "text":"http:\/\/t.co\/QmIQl2h4 presenta en la UJI una sesión sobre \"Oracle Java Roadshow\" :: http:\/\/t.co\/yyYputig http:\/\/t.co\/LBSaR4Qx",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Fri, 26 Oct 2012 15:43:38 +0000",
+         "from_user":"M3M0_HP",
+         "from_user_id":237011573,
+         "from_user_id_str":"237011573",
+         "from_user_name":"Guillermo Hdez.",
+         "geo":null,
+         "id":261855614752407552,
+         "id_str":"261855614752407552",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2659092306\/c07b5a30236e4321704ff2dd47e6c102_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2659092306\/c07b5a30236e4321704ff2dd47e6c102_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+         "text":"http:\/\/t.co\/QmIQl2h4 presenta en la UJI una sesión sobre \"Oracle Java Roadshow\" http:\/\/t.co\/WODblygn",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Fri, 26 Oct 2012 10:51:33 +0000",
+         "from_user":"laplanaaldia",
+         "from_user_id":44351293,
+         "from_user_id_str":"44351293",
+         "from_user_name":"Diario digital",
+         "geo":null,
+         "id":261782109058891776,
+         "id_str":"261782109058891776",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/768719015\/minilogo_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/768719015\/minilogo_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/www.laplanaaldia.com&quot;&gt;Web LaPlanaAlDia.com&lt;\/a&gt;",
+         "text":"#Castelló: http:\/\/t.co\/oN3fbMp2 presenta en lUJI una sessió sobre \\'Oracle Java Roadshow\\' http:\/\/t.co\/mvVcUikP",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Fri, 26 Oct 2012 10:49:56 +0000",
+         "from_user":"ncomunitat",
+         "from_user_id":200943429,
+         "from_user_id_str":"200943429",
+         "from_user_name":"Noticias Comunitat",
+         "geo":null,
+         "id":261781701766819840,
+         "id_str":"261781701766819840",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1141629458\/ncv-facebook_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1141629458\/ncv-facebook_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/www.google.com\/&quot;&gt;Google&lt;\/a&gt;",
+         "text":"http:\/\/t.co\/XHQFRaWh presenta en la #UJI una sesión sobre “Oracle #Java Roadshow”: @Publicado… http:\/\/t.co\/Eysvo12H @NCV",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Thu, 25 Oct 2012 23:10:37 +0000",
+         "from_user":"Tomi_Toivio",
+         "from_user_id":85542586,
+         "from_user_id_str":"85542586",
+         "from_user_name":"Tomi Toivio",
+         "geo":{
+            "coordinates":[
+               60.2052,
+               24.6522
+            ],
+            "type":"Point"
+         },
+         "id":261605715641257984,
+         "id_str":"261605715641257984",
+         "iso_language_code":"in",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2548742619\/4x5p1xw7b9s6brwmyjwk_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2548742619\/4x5p1xw7b9s6brwmyjwk_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/identi.ca&quot;&gt;identica&lt;\/a&gt;",
+         "text":"SUSE Roadshow – Tampere 1.11.2012: http:\/\/t.co\/qNK96C90 #suse #linux #vmware #sap #oracle #openstack",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Tue, 23 Oct 2012 10:48:38 +0000",
+         "from_user":"Wien_HitHot",
+         "from_user_id":348229759,
+         "from_user_id_str":"348229759",
+         "from_user_name":"Wien HitHot",
+         "geo":null,
+         "id":260694214378135553,
+         "id_str":"260694214378135553",
+         "iso_language_code":"de",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1501332071\/HitHot4502_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1501332071\/HitHot4502_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/hithot.cc\/de_DE&quot;&gt;Wien1 HitHot Keyword Service&lt;\/a&gt;",
+         "text":"#Düsseldorf #Wien Start der Roadshow-Reihe von Oracle und PITSS im November 2012 ... http:\/\/t.co\/6XHp4GMl",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 21:05:01 +0000",
+         "from_user":"efectoflash",
+         "from_user_id":104948784,
+         "from_user_id_str":"104948784",
+         "from_user_name":"Abel Arévalo",
+         "geo":null,
+         "id":260486942557339648,
+         "id_str":"260486942557339648",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1119982672\/Foto_Facebook_escalada_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1119982672\/Foto_Facebook_escalada_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+         "text":"RT @decharlas: #decharlas te trae el próximo día 29 de Octubre el Oracle Java Roadshow http:\/\/t.co\/kudKU0cf Inscríbete gratis en https:\/\/t.co\/se28yoHZ",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 20:21:01 +0000",
+         "from_user":"vpazos_",
+         "from_user_id":107509926,
+         "from_user_id_str":"107509926",
+         "from_user_name":"Verónica Pazos",
+         "geo":null,
+         "id":260475871851315200,
+         "id_str":"260475871851315200",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2595985329\/60of5G9W_normal",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2595985329\/60of5G9W_normal",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+         "text":"RT @borillo: Vuelta a @decharlas!! El próximo lunes 29 de Octubre impartiré el taller de REST con JAX-RS en el Oracle Java Roadshow https:\/\/t.co\/lpJQhBlc",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 19:58:55 +0000",
+         "from_user":"isidromerayo",
+         "from_user_id":99098873,
+         "from_user_id_str":"99098873",
+         "from_user_name":"Isidro Merayo",
+         "geo":null,
+         "id":260470309587677185,
+         "id_str":"260470309587677185",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2653241022\/b9e5b18a976b32530717f15ae3f97f6e_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2653241022\/b9e5b18a976b32530717f15ae3f97f6e_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+         "text":"RT @borillo: Vuelta a @decharlas!! El próximo lunes 29 de Octubre impartiré el taller de REST con JAX-RS en el Oracle Java Roadshow https:\/\/t.co\/lpJQhBlc",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 18:00:48 +0000",
+         "from_user":"calvarin",
+         "from_user_id":77189123,
+         "from_user_id_str":"77189123",
+         "from_user_name":"Cris Alvariño",
+         "geo":null,
+         "id":260440583506632704,
+         "id_str":"260440583506632704",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1435765417\/cris_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1435765417\/cris_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+         "text":"RT @borillo: Vuelta a @decharlas!! El próximo lunes 29 de Octubre impartiré el taller de REST con JAX-RS en el Oracle Java Roadshow https:\/\/t.co\/lpJQhBlc",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 17:38:18 +0000",
+         "from_user":"pepechorva",
+         "from_user_id":76466956,
+         "from_user_id_str":"76466956",
+         "from_user_name":"Pepe",
+         "geo":null,
+         "id":260434922467123201,
+         "id_str":"260434922467123201",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1822566938\/CR_275912_friki_normal.jpg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1822566938\/CR_275912_friki_normal.jpg",
+         "source":"&lt;a href=&quot;http:\/\/sites.google.com\/site\/yorufukurou\/&quot;&gt;YoruFukurou&lt;\/a&gt;",
+         "text":"RT @borillo: Vuelta a @decharlas!! El próximo lunes 29 de Octubre impartiré el taller de REST con JAX-RS en el Oracle Java Roadshow https:\/\/t.co\/lpJQhBlc",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 17:33:10 +0000",
+         "from_user":"jturegano",
+         "from_user_id":157709990,
+         "from_user_id_str":"157709990",
+         "from_user_name":"José Turégano",
+         "geo":null,
+         "id":260433628910194689,
+         "id_str":"260433628910194689",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2676298274\/ec3207d53b17b5b31a9c90c5dc4a4199_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2676298274\/ec3207d53b17b5b31a9c90c5dc4a4199_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+         "text":"RT @decharlas: #decharlas te trae el próximo día 29 de Octubre el Oracle Java Roadshow http:\/\/t.co\/kudKU0cf Inscríbete gratis en https:\/\/t.co\/se28yoHZ",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 17:13:02 +0000",
+         "from_user":"borillo",
+         "from_user_id":33838007,
+         "from_user_id_str":"33838007",
+         "from_user_name":"Ricardo Borillo",
+         "geo":null,
+         "id":260428561012363264,
+         "id_str":"260428561012363264",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1211218282\/f_bigger_normal.jpeg",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1211218282\/f_bigger_normal.jpeg",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+         "text":"Vuelta a @decharlas!! El próximo lunes 29 de Octubre impartiré el taller de REST con JAX-RS en el Oracle Java Roadshow https:\/\/t.co\/lpJQhBlc",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      },
+      {
+         "created_at":"Mon, 22 Oct 2012 17:09:57 +0000",
+         "from_user":"decharlas",
+         "from_user_id":115614871,
+         "from_user_id_str":"115614871",
+         "from_user_name":"decharlas",
+         "geo":null,
+         "id":260427788530626560,
+         "id_str":"260427788530626560",
+         "iso_language_code":"es",
+         "metadata":{
+            "result_type":"recent"
+         },
+         "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/705631813\/logo3_2__normal.png",
+         "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/705631813\/logo3_2__normal.png",
+         "source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+         "text":"#decharlas te trae el próximo día 29 de Octubre el Oracle Java Roadshow http:\/\/t.co\/kudKU0cf Inscríbete gratis en https:\/\/t.co\/se28yoHZ",
+         "to_user":null,
+         "to_user_id":0,
+         "to_user_id_str":"0",
+         "to_user_name":null
+      }
+   ],
+   "results_per_page":15,
+   "since_id":0,
+   "since_id_str":"0"
+}

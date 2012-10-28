@@ -34,7 +34,8 @@
       <div class="slides">
         <section>
           <h1>Servicios REST</h1>
-          <h3>Jersey y JAX-RS</h3>
+          <h3>Jersey JAX-RS</h3>
+          <img alt="Roadshow" src="img/roadshow.jpg">
         </section>
 
         <section>
@@ -119,6 +120,7 @@
             <li class="fragment">No aprovecha al 100% HTTP</li>
             <li class="fragment">Muchísimos estándares a conocer: ws-*</li>
           </ul>
+          <img class="fragment" alt="ws-*" src="img/ws*.gif">
         </section>
 
         <section style="background: url(img/ws.png) no-repeat center; background-size:cover;">
@@ -464,6 +466,21 @@ public class User {
         </section>
 
         <section>
+          <h2>Uso de Jackson</h2>
+          <h3>Configuración extra del web.xml</h3>
+          <pre><code class="xml" style="font-size:75%;">&lt;servlet>
+  &lt;servlet-name>jaxrs-servlet&lt;/servlet-name>
+  &lt;servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer&lt;/servlet-class>
+  &lt;init-param>
+    &lt;param-name>com.sun.jersey.config.property.packages&lt;/param-name>
+    &lt;param-value>com.fasterxml.jackson.jaxrs.json; ...&lt;/param-value>
+  &lt;/init-param>
+  ...
+&lt;/servlet>
+</code></pre>
+        </section>
+
+        <section>
           <h3>Ejemplo JSON y XML:</h3>
           <pre><code class="java">@Path("users")
 public class UserResource {
@@ -491,16 +508,51 @@ public class UserResource {
       return new User(id, "Usuario 1");
    }
  }</code></pre>
-          <pre><code class="java">Client client = Client.create();
-WebResource resource = client.resource("http://localhost:8080/");
+          <pre><code class="java" style="font-size:75%;">Client client = Client.create();
+WebResource resource = client.resource("http://localhost:8080/jersey-maven/rest");
 ClientResponse response = resource.path("/users/1").get(ClientResponse.class);
 User user = response.getEntity(User.class)</code></pre>
         </section>
 
         <section>
+          <h3>Búsqueda en twitter:</h3>
+          <p>Recuperación del resultado como un JSONObject:</p>
+          <pre><code class="java" style="font-size:75%;">Client client = Client.create();
+client.addFilter(new LoggingFilter());
+
+WebResource resource = client.resource("http://search.twitter.com/");
+
+ClientResponse response = resource.path("search.json")
+        .queryParam("q", "oracle+roadshow").get(ClientResponse.class);
+JSONObject data = response.getEntity(JSONObject.class);
+
+Assert.assertEquals(Status.OK.getStatusCode(), response.getStatus());
+Assert.assertEquals(1, data.getInt("page"));</code></pre>
+        </section>
+
+        <section>
+          <h3>Gestión de errores</h3>
+          <p>Uso del intefaz ExceptionMapper para interceptar excepciones:</p>
+          <pre><code class="java">@Provider
+public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
+   @Override
+   public Response toResponse(Exception exception) {
+      log.error("Handled by ExceptionMapper", exception);
+      return Response.serverError().type(MediaType.TEXT_PLAIN)
+             .entity(exception.getMessage()).build();
+   }
+}</code></pre>
+           <p class="fragment">Los <strong>@Provider</strong> permiten interactuar con el ciclo petición/respuesta</p>
+        </section>
+
+        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        </section>        
+
+        <section>
           <h3>Otras funcionalidades disponibles:</h3>
           <ul>
-            <li>Seguridad: OAuth, SSL, etc</li>
+            <li>Hypermedia</li>
+            <li class="fragment">Seguridad: OAuth, SSL, etc</li>
             <li class="fragment">Logging</li>
             <li class="fragment">Gestión de excepciones</li>
             <li class="fragment">Soporte para Spring Framework</li>
@@ -608,6 +660,9 @@ User user = response.getEntity(User.class)</code></pre>
     }
 }</code></pre>
         </section>
+
+        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        </section>        
 
         <section style="background: url(img/lovebooks.jpg) no-repeat center; background-size:cover;">
         </section>
