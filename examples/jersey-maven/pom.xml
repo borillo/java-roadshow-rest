@@ -97,7 +97,6 @@
             </connector>
           </connectors>
           <contextPath>/jersey-maven</contextPath>
-          <webXml>target/web.xml</webXml>
         </configuration>
       </plugin>
     </plugins>
