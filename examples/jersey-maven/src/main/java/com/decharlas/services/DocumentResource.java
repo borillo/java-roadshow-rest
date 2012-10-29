@@ -18,6 +18,7 @@ import com.sun.jersey.multipart.FormDataParam;
 
 @Path("documents")
 public class DocumentResource {
+	
 	@POST
 	@Consumes(MediaType.MULTIPART_FORM_DATA)
 	public void uploadFile(
@@ -54,7 +55,7 @@ public class DocumentResource {
 	@Path("{id}")
 	public String get(@PathParam("id") String id)
 	{
-		int value = Integer.parseInt(id);
+		Integer.parseInt(id);
 		return "Param is a string";
 	}
 }
