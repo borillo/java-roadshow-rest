@@ -26,6 +26,7 @@
     <style type="text/css">
       .reveal pre code { padding: 1em; }
       strong { color: cyan; }
+      p.cite { margin-top: 1.5em; }
    </style>
   </head>
 
@@ -78,19 +79,19 @@
 
         <section>
           <h3>Wikipedia:</h3>
-          <blockquote>Un servicio web es una tecnología que utiliza un conjunto de protocolos y estándares que sirven para intercambiar datos entre aplicaciones. Distintas aplicaciones de software desarrolladas en lenguajes de programación diferentes, y ejecutadas sobre cualquier plataforma, pueden utilizar los servicios web para intercambiar datos en redes de ordenadores como Internet.</blockquote>
+          <p class="cite">"Un servicio web es una tecnología que utiliza un conjunto de protocolos y estándares que sirven para intercambiar datos entre aplicaciones. Distintas aplicaciones de software desarrolladas en lenguajes de programación diferentes, y ejecutadas sobre cualquier plataforma, pueden utilizar los servicios web para intercambiar datos en redes de ordenadores como Internet."</cite>
         </section>
 
         <section>
           <h3>Distintas aproximaciones:</h3>
           <p><strong>SOAP</strong>. Formato XML e independiente del protocolo. Implementado en Metro (JAX-WS)</p>
-          <blockquote>SOAP (Simple Object Access Protocol) es un protocolo estándar que define cómo dos objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML</blockquote>
+          <p class="cite">"SOAP (Simple Object Access Protocol) es un protocolo estándar que define cómo dos objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML"</cite>
         </section>
 
         <section>
           <h3>Distintas aproximaciones:</h3>
           <p><strong>REST</strong>. Cualquier formato sobre HTTP. Implementado en Jersey (JAX-RS)</p>
-          <blockquote>Cualquier interfaz web simple sin las abstracciones adicionales de los protocolos basados en patrones de intercambio de mensajes</blockquote>
+          <p class="cite">"Cualquier interfaz web simple sin las abstracciones adicionales de los protocolos basados en patrones de intercambio de mensajes"</cite>
         </section>
 
         <section>
@@ -121,16 +122,19 @@
             <li class="fragment">No aprovecha al 100% HTTP</li>
             <li class="fragment">Muchísimos estándares a conocer: ws-*</li>
           </ul>
-          <img class="fragment" alt="ws-*" src="img/ws*.gif">
+          <img class="fragment" alt="ws-*" src="img/ws*.gif" style="width:300px;">
         </section>
 
-        <section style="background: url(img/ws.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/ws.png" style="margin-top:2.5em;">
         </section>
 
-        <section style="background: url(img/empresas.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/empresas.png" style="margin-top:2.5em;">
         </section>
 
-        <section style="background: url(img/rest.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/rest.png" style="margin-top:2.5em;">
         </section>
 
         <section>
@@ -189,10 +193,12 @@ if (response.getStatus() == 200) {
           </ul>
         </section>
 
-        <section style="background: url(img/lovebooks.jpg) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/lovebooks.jpg" style="margin-top: 2.5em;">
         </section>
 
-        <section style="background: url(img/httpbook.jpg) no-repeat center;">
+        <section>
+        <img src="img/httpbook.jpg" style="margin-top: 2.5em;">
         </section>        
 
         <section>
@@ -210,7 +216,7 @@ DELETE /cars/1234AAW</code></pre>
 
         <section>
           <h3>Independiente del formato intercambiado:</h3>
-          <img alt="Formatos" src="img/tags.png" width="100%" />
+          <img alt="Formatos" src="img/tags.png">
         </section>
 
         <section>
@@ -329,17 +335,20 @@ public void updateUser(User user) {
           </ul>
         </section>
 
-        <section style="background: url(img/lovebooks.jpg) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/lovebooks.jpg" style="margin-top: 2.5em;"> 
         </section>
 
         <section>
-          <img alt="Libro REST" src="img/restbook1.gif" style="height:100%; margin-top: 2.5em;" />
+          <img alt="Libro REST" src="img/restbook1.gif" style="margin-top: 2.5em;" />
         </section>
 
-        <section style="background: url(img/books.png) no-repeat center;">
+        <section>
+        <img src="img/books.png" style="margin-top: 2.5em;">
         </section>
 
-        <section style="background: url(img/showcode.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/showcode.png" style="margin-top: 2.5em;">
         </section>        
 
         <section>
@@ -367,7 +376,7 @@ public void updateUser(User user) {
         </section>        
 
         <section>
-          <img alt="Libre Maven" src="img/mavenbook.jpg" style="height: 70%; margin-top: 2.5em;" />
+          <img alt="Libro Maven" src="img/mavenbook.jpg" style="margin-top: 2.5em;" />
           <p>Ejemplo:</p>
           <pre><code class="no-hightlight">https://github.com/borillo/java-roadshow-rest/tree/master/examples/jersey-maven</code></pre>
         </section>
@@ -443,7 +452,8 @@ INFO: Initiating Jersey application, version 'Jersey: 1.14 06/29/2012 05:14 PM'
 </code></pre>
         </section>
 
-        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/demo.png" style="margin-top: 2.5em;">
         </section>        
 
         <section>
@@ -507,7 +517,8 @@ public class UserResource {
 GET -XGET -H "Accept: text/xml" http://localhost:8080/users</code></pre>
         </section>        
 
-        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/demo.png" style="margin-top: 2.5em;">
         </section>        
 
         <section>
@@ -558,7 +569,8 @@ public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
            <p class="fragment">Los <strong>@Provider</strong> permiten interactuar con el ciclo petición/respuesta</p>
         </section>
 
-        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/demo.png" style="margin-top: 2.5em;">
         </section>
 
         <section>
@@ -583,7 +595,7 @@ public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
         <section>
           <h3>Definición</h3>
           <img alt="Wikipedia" src="img/wikipedia.png" align="left" style="width:300px;">
-          <blockquote>Unit testing is a software verification and validation method in which a programmer tests if individual units of source code are fit for use. A unit is the smallest testable part of an application</blockquote>
+          <p class="cite">"Unit testing is a software verification and validation method in which a programmer tests if individual units of source code are fit for use. A unit is the smallest testable part of an application"</cite>
         </section>
 
         <section>
@@ -597,11 +609,11 @@ public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
         </section>
 
         <section>
-          <img alt="Test" src="img/test.png" style="margin-top:2.5em; width: 80%;" />
+          <img alt="Test" src="img/test.png" style="margin-top:2.5em;" />
         </section>
 
         <section>
-          <img alt="Testing" src="img/testing.png" style="margin-top:2.5em; width: 70%;" />
+          <img alt="Testing" src="img/testing.png" style="margin-top:2.5em;" />
         </section>
 
         <section>
@@ -615,7 +627,7 @@ public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
         </section>
 
         <section>
-          <img alt="Jersey Testing" src="img/jerseytesting.png" style="margin-top:2.5em; width: 80%;" />
+          <img alt="Jersey Testing" src="img/jerseytesting.png" style="margin-top:2.5em;" />
         </section>
 
         <section>
@@ -674,10 +686,12 @@ public class CommonExceptionMapper implements ExceptionMapper&lt;Exception> {
 }</code></pre>
         </section>
 
-        <section style="background: url(img/demo.png) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/demo.png" style="margin-top: 2.5em;">
         </section>
 
-        <section style="background: url(img/lovebooks.jpg) no-repeat center; background-size:cover;">
+        <section>
+        <img src="img/lovebooks.jpg" style="margin-top: 2.5em;">
         </section>
 
         <section>
